@@ -84,6 +84,8 @@ body {
 }
 
 .notification-bar {
+  font-family: var(--jm-font-secondary);
+  font-size: 12px;
   height: 30px;
   align-items: center;
   text-align: center;
@@ -342,4 +344,3 @@ h3 {
     width: 100%;
   }
 }
-/*Hola esto es una prueba*/
