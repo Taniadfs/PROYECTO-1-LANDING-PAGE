@@ -84,7 +84,6 @@ body {
 }
 
 .notification-bar {
-  font-family: var(--jm-font-secondary);
   height: 30px;
   align-items: center;
   text-align: center;
