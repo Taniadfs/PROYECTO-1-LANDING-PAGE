@@ -99,7 +99,16 @@ body {
 .logo {
   font-size: var(--jm-font-size-h1);
   text-align: center;
+  cursor: pointer;
 }
+
+.logo-link {
+  text-decoration: none;
+}
+.logo-link:visited {
+  color: var(--jm-color-black);
+}
+
 .nav-list {
   list-style: none;
   font-size: var(--jm-font-size-text);
