@@ -237,7 +237,32 @@ h3 {
   height: 50px;
   width: 100%;
 }
+h4 {
+  font-size: 30px;
+  margin-top: 80px;
+  font-family: var(--jm-font-primary);
+}
+.flex-container-musas {
+  margin-top: 10px;
+  display: flex;
+  width: 95%;
+  height: 730;
+}
 
+.flex-container-musas img {
+  width: 100px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: width 0.3s, opacity 0.3s, filter 0.3s;
+}
+
+.flex-container-musas img:hover {
+  cursor: pointer;
+  width: 70px;
+  opacity: 0.5;
+  filter: contrast(120%);
+}
 .footer__container {
   display: flex;
   justify-content: space-between;
