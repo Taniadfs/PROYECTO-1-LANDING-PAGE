@@ -271,6 +271,16 @@ h4 {
   opacity: 0.5;
   filter: contrast(120%);
 }
+
+.flex-container-personaliza-joyas img {
+  width: 1615px;
+  height: 600px;
+  display: flex; /* Habilita el flexbox */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido (si es necesario) */
+  margin: 20px 0;
+  object-fit: cover;
+}
 .footer__container {
   display: flex;
   justify-content: space-between;
