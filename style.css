@@ -207,7 +207,7 @@ h2 {
   grid-template-rows: auto auto;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: var(--jm-gap-m);
   width: 95%;
   margin: 0;
 }
@@ -263,6 +263,7 @@ h4 {
   object-fit: cover;
   opacity: 0.8;
   transition: width 0.3s, opacity 0.3s, filter 0.3s;
+  gap: var(--jm-gap-m);
 }
 
 .flex-container-musas img:hover {
@@ -272,14 +273,43 @@ h4 {
   filter: contrast(120%);
 }
 
-.flex-container-personaliza-joyas img {
-  width: 1615px;
-  height: 600px;
-  display: flex; /* Habilita el flexbox */
-  justify-content: center; /* Centra horizontalmente el contenido */
-  align-items: center; /* Centra verticalmente el contenido (si es necesario) */
-  margin: 20px 0;
-  object-fit: cover;
+.flex-container-personaliza-joyas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--jm-padding-m);
+}
+
+.image-container {
+  position: relative; /* Permite posicionar el botón sobre la imagen */
+  width: 100%;
+  max-width: 1116px; /* Limita el ancho máximo */
+}
+
+.customize-button {
+  position: absolute;
+  top: 40%;
+  left: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 1;
+  text-decoration: none;
+}
+.customize-button:visited {
+  text-decoration: none;
+  color: inherit;
+}
+.customize-button:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    1
+  ); /* Cambia el fondo al pasar el mouse */
 }
 .footer__container {
   display: flex;
