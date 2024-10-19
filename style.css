@@ -252,9 +252,9 @@ h4 {
   justify-content: center;
 }
 .flex-container-musas {
-  display: flex;
   width: 95%;
   height: 730;
+  display: flex;
 }
 
 .flex-container-musas img {
@@ -274,16 +274,17 @@ h4 {
 }
 
 .flex-container-personaliza-joyas {
-  display: flex;
+  width: 95%;
+  box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  padding: var(--jm-padding-m);
 }
 
 .image-container {
-  position: relative; /* Permite posicionar el botón sobre la imagen */
+  position: relative;
+  height: auto;
   width: 100%;
-  max-width: 1116px; /* Limita el ancho máximo */
+  justify-content: center;
 }
 
 .customize-button {
