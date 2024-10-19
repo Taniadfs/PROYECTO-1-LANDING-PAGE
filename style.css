@@ -282,9 +282,17 @@ h4 {
 
 .image-container {
   position: relative;
-  height: auto;
+
   width: 100%;
   justify-content: center;
+  height: 250px;
+  overflow: hidden;
+}
+
+.image-container > img {
+  width: 100%;
+  object-fit: cover;
+  height: 250px;
 }
 
 .customize-button {
