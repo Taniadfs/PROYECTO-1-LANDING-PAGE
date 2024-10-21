@@ -390,7 +390,7 @@ h4 {
 }
 footer a:visited {
   text-decoration: none;
-  color: inherit;
+  color: var(--jm-color-black);
 }
 
 footer a:hover {
