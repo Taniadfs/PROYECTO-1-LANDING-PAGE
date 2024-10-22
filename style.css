@@ -397,6 +397,7 @@ h4 {
   font-family: var(--jm-font-secondary);
   line-height: 1.5;
   transition: 0.3s ease;
+  color: var(--jm-color-black);
 }
 footer a:visited {
   text-decoration: none;
@@ -405,6 +406,7 @@ footer a:visited {
 
 footer a:hover {
   color: var(--jm-color-grey);
+  text-decoration: none;
 }
 
 @media (max-width: 1052px) {
