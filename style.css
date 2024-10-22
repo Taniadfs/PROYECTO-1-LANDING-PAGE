@@ -71,6 +71,7 @@ body {
   display: flex;
   font-weight: bold;
   width: 100%;
+  min-width: 409px;
 }
 .plus {
   font-family: var(--jm-font-secondary);
@@ -93,6 +94,7 @@ body {
   gap: var(--jm-gap-l);
   width: 100%;
   flex-direction: row;
+  min-width: 409px;
 }
 .search-input {
   border: 2px solid;
